@@ -1,0 +1,121 @@
+.navbar {
+  background-color: $natural;
+  .container-fluid {
+    .navbar__logoWraper {
+      min-height: 7rem;
+      padding-left: 7.5vw;
+      display: flex;
+      align-items: center;
+      .navbar-brand__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p {
+          font-size: 1.125rem;
+          margin: 0;
+        }
+      }
+    }
+    .navbar-toggler {
+      background-color: #fff;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      &:focus {
+        box-shadow: none;
+      }
+      .navbar-toggler-icon {
+        background-image: url(../img/menu.svg);
+        background-position: center;
+        background-size: 23px;
+      }
+    }
+    .navbar-collapse {
+      padding-right: 22vw;
+      flex-grow: 0;
+      ul {
+        .nav-item {
+          .nav-link {
+            margin-right: 3vw;
+            font-size: 1.125rem;
+            color: #000;
+            font-weight: 300;
+            transition: all 0.25s ease;
+            &:hover {
+              font-size: 1.15rem;
+              font-weight: 600;
+              color: $naranja-marca;
+            }
+          }
+          &:last-child {
+            .nav-link {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $xxl) {
+    .container-fluid {
+      .navbar__logoWraper {
+        padding-left: 5.5vw;
+      }
+      .navbar-collapse {
+        padding-right: 13vw;
+      }
+    }
+  }
+  @media (max-width: $lg) {
+    padding-bottom: 0;
+    .container-fluid {
+      .navbar__logoWraper {
+        padding-left: 2rem;
+      }
+      .navbar-toggler {
+        margin-right: 2rem;
+      }
+      .navbar-collapse {
+        padding-right: 0;
+        ul {
+          margin-bottom: 0;
+          .nav-item {
+            .nav-link {
+              font-family: $fuente-titulos;
+              margin-right: 0;
+              padding: 1rem;
+              text-align: center;
+              border-top: 1px solid #cccccc;
+            }
+            &:last-child {
+              .nav-link {
+                border-bottom: 1px solid #cccccc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $sm) {
+    padding-bottom: 0;
+    .container-fluid {
+      .navbar__logoWraper {
+        padding-left: 0rem;
+        .navbar-brand {
+          img {
+            width: 3.125rem;
+          }
+        }
+        .navbar-brand__text {
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+      .navbar-toggler {
+        margin-right: 0rem;
+      }
+    }
+  }
+}
