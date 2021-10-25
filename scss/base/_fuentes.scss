@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Poppins-Light";
+  font-weight: 300;
+  src: url(../fonts/poppins-light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  src: url(../fonts/poppins-semiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Professor";
+  font-weight: 400;
+  src: url(../fonts/professor.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cooper-Black";
+  font-weight: 900;
+  src: url(../fonts/coopbl.TTF) format("truetype");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $fuente-principal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fuente-titulos;
+  font-weight: 900;
+}
+
+p {
+  font-family: $fuente-principal;
+  font-weight: 300;
+}

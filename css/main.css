@@ -1,0 +1,44 @@
+/********************* Reseteo general CSS *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Poppins-Light";
+  font-weight: 300;
+  src: url(../fonts/Poppins-Light.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  src: url(../fonts/Poppins-SemiBold.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Professor";
+  font-weight: 400;
+  src: url(../fonts/Professor.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cooper-Black";
+  font-weight: 900;
+  src: url(../fonts/COOPBL.TTF) format("truetype"); }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "Poppins-Light", Helvetica, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cooper-Black", serif;
+  font-weight: 900; }
+
+p {
+  font-family: "Poppins-Light", Helvetica, sans-serif;
+  font-weight: 300; }
