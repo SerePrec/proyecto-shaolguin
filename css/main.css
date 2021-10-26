@@ -128,6 +128,38 @@ header {
       height: 1rem;
       margin: 0 0.5rem; } }
 
+.workExamples h3 {
+  padding: 1.375rem 1rem;
+  text-align: center;
+  margin-bottom: 0; }
+
+.workExamples .image-wraper {
+  max-width: 1460px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .workExamples .image-wraper img {
+    width: 31%; }
+
+@media (max-width: 768px) {
+  .workExamples h3 {
+    padding: 3.875rem 1rem; }
+  .workExamples .image-wraper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.3rem; }
+    .workExamples .image-wraper img {
+      width: 100%;
+      max-width: 28rem;
+      margin-bottom: 3.875rem; } }
+
+@media (max-width: 576px) {
+  .workExamples h3 {
+    font-size: 1.15rem; } }
+
 .navbar {
   background-color: #f3efe8;
   padding: 0; }
