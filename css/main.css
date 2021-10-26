@@ -70,9 +70,6 @@ header {
     .hero-image .hero-image__container {
       background-image: url(../img/tissue_package_hands_mobile.jpg); } }
 
-#borrar {
-  height: 200vh; }
-
 .brands {
   background-color: #f3efe8; }
   .brands h3 {
@@ -477,3 +474,17 @@ header {
         font-size: 1rem; }
     .navbar .container-fluid .navbar-toggler {
       margin-right: 0rem; } }
+
+.whatsapp-link {
+  position: fixed;
+  bottom: 1.8rem;
+  right: 1.8rem;
+  z-index: 1030; }
+  .whatsapp-link img {
+    width: 4.125rem; }
+  @media (max-width: 576px) {
+    .whatsapp-link {
+      bottom: 0.625rem;
+      right: 0.625rem; }
+      .whatsapp-link img {
+        width: 4rem; } }

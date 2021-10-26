@@ -1,0 +1,16 @@
+.whatsapp-link {
+  position: fixed;
+  bottom: 1.8rem;
+  right: 1.8rem;
+  z-index: 1030;
+  img {
+    width: 4.125rem;
+  }
+  @media (max-width: $sm) {
+    bottom: 0.625rem;
+    right: 0.625rem;
+    img {
+      width: 4rem;
+    }
+  }
+}
