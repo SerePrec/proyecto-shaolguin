@@ -128,6 +128,248 @@ header {
       height: 1rem;
       margin: 0 0.5rem; } }
 
+.objective .objective-wraper,
+.objective .about-wraper,
+.about .objective-wraper,
+.about .about-wraper {
+  max-width: 1460px;
+  margin: auto;
+  padding: 8rem 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .objective .objective-wraper .objective__text,
+  .objective .objective-wraper .about__text,
+  .objective .about-wraper .objective__text,
+  .objective .about-wraper .about__text,
+  .about .objective-wraper .objective__text,
+  .about .objective-wraper .about__text,
+  .about .about-wraper .objective__text,
+  .about .about-wraper .about__text {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .objective .objective-wraper .objective__text h3,
+    .objective .objective-wraper .about__text h3,
+    .objective .about-wraper .objective__text h3,
+    .objective .about-wraper .about__text h3,
+    .about .objective-wraper .objective__text h3,
+    .about .objective-wraper .about__text h3,
+    .about .about-wraper .objective__text h3,
+    .about .about-wraper .about__text h3 {
+      max-width: 34rem;
+      text-align: center;
+      margin-bottom: 2rem; }
+    .objective .objective-wraper .objective__text p,
+    .objective .objective-wraper .about__text p,
+    .objective .about-wraper .objective__text p,
+    .objective .about-wraper .about__text p,
+    .about .objective-wraper .objective__text p,
+    .about .objective-wraper .about__text p,
+    .about .about-wraper .objective__text p,
+    .about .about-wraper .about__text p {
+      text-align: center;
+      max-width: 28rem;
+      color: #575757; }
+  .objective .objective-wraper .objective__text p:last-of-type,
+  .objective .about-wraper .objective__text p:last-of-type,
+  .about .objective-wraper .objective__text p:last-of-type,
+  .about .about-wraper .objective__text p:last-of-type {
+    font-family: "Professor";
+    font-size: 1.875rem;
+    color: #000;
+    max-width: none;
+    margin-top: 1rem; }
+  .objective .objective-wraper .std-btn,
+  .objective .about-wraper .std-btn,
+  .about .objective-wraper .std-btn,
+  .about .about-wraper .std-btn {
+    text-decoration: none;
+    color: #000;
+    background-color: #f9cebe;
+    font-size: 1.4375rem;
+    padding: 1.25rem 6.25rem;
+    box-shadow: 11px 9px 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.4s ease-in-out, box-shadow 0.2s ease; }
+    .objective .objective-wraper .std-btn:hover,
+    .objective .about-wraper .std-btn:hover,
+    .about .objective-wraper .std-btn:hover,
+    .about .about-wraper .std-btn:hover {
+      background-color: #ee7f59;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); }
+  .objective .objective-wraper .about__btn-mobile,
+  .objective .about-wraper .about__btn-mobile,
+  .about .objective-wraper .about__btn-mobile,
+  .about .about-wraper .about__btn-mobile {
+    display: none; }
+  .objective .objective-wraper .objective__image,
+  .objective .objective-wraper .about__image,
+  .objective .about-wraper .objective__image,
+  .objective .about-wraper .about__image,
+  .about .objective-wraper .objective__image,
+  .about .objective-wraper .about__image,
+  .about .about-wraper .objective__image,
+  .about .about-wraper .about__image {
+    width: 39%; }
+    .objective .objective-wraper .objective__image img,
+    .objective .objective-wraper .about__image img,
+    .objective .about-wraper .objective__image img,
+    .objective .about-wraper .about__image img,
+    .about .objective-wraper .objective__image img,
+    .about .objective-wraper .about__image img,
+    .about .about-wraper .objective__image img,
+    .about .about-wraper .about__image img {
+      width: 100%; }
+
+@media (max-width: 1200px) {
+  .objective .objective-wraper .objective__text,
+  .objective .objective-wraper .about__text,
+  .objective .about-wraper .objective__text,
+  .objective .about-wraper .about__text,
+  .about .objective-wraper .objective__text,
+  .about .objective-wraper .about__text,
+  .about .about-wraper .objective__text,
+  .about .about-wraper .about__text {
+    width: 49%; }
+  .objective .objective-wraper .objective__image,
+  .objective .objective-wraper .about__image,
+  .objective .about-wraper .objective__image,
+  .objective .about-wraper .about__image,
+  .about .objective-wraper .objective__image,
+  .about .objective-wraper .about__image,
+  .about .about-wraper .objective__image,
+  .about .about-wraper .about__image {
+    width: 43%; } }
+
+@media (max-width: 992px) {
+  .objective .objective-wraper .objective__text h3,
+  .objective .objective-wraper .about__text h3,
+  .objective .about-wraper .objective__text h3,
+  .objective .about-wraper .about__text h3,
+  .about .objective-wraper .objective__text h3,
+  .about .objective-wraper .about__text h3,
+  .about .about-wraper .objective__text h3,
+  .about .about-wraper .about__text h3 {
+    margin-bottom: 1rem; }
+  .objective .objective-wraper .objective__text p:last-of-type,
+  .objective .objective-wraper .about__text p:last-of-type,
+  .objective .about-wraper .objective__text p:last-of-type,
+  .objective .about-wraper .about__text p:last-of-type,
+  .about .objective-wraper .objective__text p:last-of-type,
+  .about .objective-wraper .about__text p:last-of-type,
+  .about .about-wraper .objective__text p:last-of-type,
+  .about .about-wraper .about__text p:last-of-type {
+    margin-top: 0; }
+  .objective .objective-wraper .std-btn,
+  .objective .about-wraper .std-btn,
+  .about .objective-wraper .std-btn,
+  .about .about-wraper .std-btn {
+    font-size: 1.2rem;
+    padding: 1.25rem 4rem; }
+  .objective .objective-wraper .objective__image,
+  .objective .objective-wraper .about__image,
+  .objective .about-wraper .objective__image,
+  .objective .about-wraper .about__image,
+  .about .objective-wraper .objective__image,
+  .about .objective-wraper .about__image,
+  .about .about-wraper .objective__image,
+  .about .about-wraper .about__image {
+    width: 46%; } }
+
+@media (max-width: 768px) {
+  .objective .objective-wraper,
+  .objective .about-wraper,
+  .about .objective-wraper,
+  .about .about-wraper {
+    padding: 3.875rem 1.3rem 0 1.3rem;
+    flex-direction: column;
+    align-items: center; }
+    .objective .objective-wraper .objective__text,
+    .objective .objective-wraper .about__text,
+    .objective .about-wraper .objective__text,
+    .objective .about-wraper .about__text,
+    .about .objective-wraper .objective__text,
+    .about .objective-wraper .about__text,
+    .about .about-wraper .objective__text,
+    .about .about-wraper .about__text {
+      width: 100%;
+      margin-bottom: 3.875rem; }
+    .objective .objective-wraper .objective__text p:last-of-type,
+    .objective .about-wraper .objective__text p:last-of-type,
+    .about .objective-wraper .objective__text p:last-of-type,
+    .about .about-wraper .objective__text p:last-of-type {
+      margin-top: 1rem; }
+    .objective .objective-wraper .about__text p:last-of-type,
+    .objective .about-wraper .about__text p:last-of-type,
+    .about .objective-wraper .about__text p:last-of-type,
+    .about .about-wraper .about__text p:last-of-type {
+      margin-bottom: 0; }
+    .objective .objective-wraper .about__text .std-btn,
+    .objective .about-wraper .about__text .std-btn,
+    .about .objective-wraper .about__text .std-btn,
+    .about .about-wraper .about__text .std-btn {
+      display: none; }
+    .objective .objective-wraper .objective__image,
+    .objective .objective-wraper .about__image,
+    .objective .about-wraper .objective__image,
+    .objective .about-wraper .about__image,
+    .about .objective-wraper .objective__image,
+    .about .objective-wraper .about__image,
+    .about .about-wraper .objective__image,
+    .about .about-wraper .about__image {
+      width: 80%; }
+    .objective .objective-wraper .about__image,
+    .objective .about-wraper .about__image,
+    .about .objective-wraper .about__image,
+    .about .about-wraper .about__image {
+      order: 1; }
+    .objective .objective-wraper .about__btn-mobile,
+    .objective .about-wraper .about__btn-mobile,
+    .about .objective-wraper .about__btn-mobile,
+    .about .about-wraper .about__btn-mobile {
+      order: 2;
+      display: block;
+      margin-top: 3.785rem; } }
+
+@media (max-width: 576px) {
+  .objective .objective-wraper .objective__text h3,
+  .objective .objective-wraper .about__text h3,
+  .objective .about-wraper .objective__text h3,
+  .objective .about-wraper .about__text h3,
+  .about .objective-wraper .objective__text h3,
+  .about .objective-wraper .about__text h3,
+  .about .about-wraper .objective__text h3,
+  .about .about-wraper .about__text h3 {
+    font-size: 1.15rem; }
+  .objective .objective-wraper .objective__text p,
+  .objective .objective-wraper .about__text p,
+  .objective .about-wraper .objective__text p,
+  .objective .about-wraper .about__text p,
+  .about .objective-wraper .objective__text p,
+  .about .objective-wraper .about__text p,
+  .about .about-wraper .objective__text p,
+  .about .about-wraper .about__text p {
+    font-size: 1rem; }
+  .objective .objective-wraper .objective__text p:last-of-type,
+  .objective .about-wraper .objective__text p:last-of-type,
+  .about .objective-wraper .objective__text p:last-of-type,
+  .about .about-wraper .objective__text p:last-of-type {
+    font-size: 1.4rem; }
+  .objective .objective-wraper .std-btn,
+  .objective .about-wraper .std-btn,
+  .about .objective-wraper .std-btn,
+  .about .about-wraper .std-btn {
+    font-size: 1.2rem;
+    padding: 1rem 1rem; }
+  .objective .objective-wraper .objective__image,
+  .objective .about-wraper .objective__image,
+  .about .objective-wraper .objective__image,
+  .about .about-wraper .objective__image {
+    width: 100%; } }
+
 .workExamples h3 {
   padding: 1.375rem 1rem;
   text-align: center;
@@ -154,7 +396,9 @@ header {
     .workExamples .image-wraper img {
       width: 100%;
       max-width: 28rem;
-      margin-bottom: 3.875rem; } }
+      margin-bottom: 3.875rem; }
+      .workExamples .image-wraper img:last-child {
+        margin-bottom: 0; } }
 
 @media (max-width: 576px) {
   .workExamples h3 {

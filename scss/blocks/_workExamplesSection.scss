@@ -28,6 +28,9 @@
         width: 100%;
         max-width: 28rem;
         margin-bottom: 3.875rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }
