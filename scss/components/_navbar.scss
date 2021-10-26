@@ -1,8 +1,9 @@
 .navbar {
   background-color: $natural;
+  padding: 0;
   .container-fluid {
     .navbar__logoWraper {
-      min-height: 7rem;
+      min-height: 7.125rem;
       padding-left: 7.5vw;
       display: flex;
       align-items: center;
@@ -39,11 +40,11 @@
             margin-right: 3vw;
             font-size: 1.125rem;
             color: #000;
-            font-weight: 300;
+            font-weight: 600;
             transition: all 0.25s ease;
             &:hover {
               font-size: 1.15rem;
-              font-weight: 600;
+              //font-weight: 600;
               color: $naranja-marca;
             }
           }
@@ -98,7 +99,6 @@
     }
   }
   @media (max-width: $sm) {
-    padding-bottom: 0;
     .container-fluid {
       .navbar__logoWraper {
         padding-left: 0rem;

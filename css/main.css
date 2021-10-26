@@ -44,10 +44,95 @@ p {
   font-weight: 300;
   font-size: 1.125rem; }
 
-.navbar {
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1020; }
+
+.hero-image {
+  background-color: #f3efe8;
+  background-image: url(../img/fondo.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: calc(100vh - 7.125em); }
+  .hero-image .hero-image__container {
+    max-width: 1460px;
+    height: 100%;
+    margin: auto;
+    background-image: url(../img/tissue_package_hands.jpg);
+    background-position: center;
+    background-size: cover; }
+  @media (max-width: 1400px) {
+    .hero-image .hero-image__container {
+      background-position: 51.25% center; } }
+  @media (max-width: 450px) {
+    .hero-image .hero-image__container {
+      background-image: url(../img/tissue_package_hands_mobile.jpg); } }
+
+#borrar {
+  height: 200vh; }
+
+.brands {
   background-color: #f3efe8; }
+  .brands h3 {
+    text-align: center;
+    padding: 2rem 1rem 1.5rem 1rem;
+    margin-bottom: 0; }
+  .brands #brandsCarousel .carousel-inner {
+    padding-bottom: 2rem; }
+    .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper {
+      max-width: 1460px;
+      min-height: 11rem;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper img {
+        flex-grow: 0;
+        width: 10rem; }
+  .brands #brandsCarousel .carousel-indicators {
+    margin-bottom: 0; }
+    .brands #brandsCarousel .carousel-indicators button {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      margin: 0 1rem;
+      opacity: 1;
+      background-color: #fff; }
+      .brands #brandsCarousel .carousel-indicators button.active {
+        background-color: #ee7f59; }
+  @media (max-width: 992px) {
+    .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper {
+      min-height: 11rem; }
+      .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper img {
+        width: 9rem; }
+    .brands #brandsCarousel .carousel-indicators button {
+      width: 2rem;
+      height: 2rem; } }
+  @media (max-width: 768px) {
+    .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper {
+      min-height: 8rem; }
+      .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper img {
+        width: 7rem; } }
+  @media (max-width: 576px) {
+    .brands h3 {
+      font-size: 1.15rem;
+      padding: 2rem 0.25rem 1.5rem 0.25rem; }
+    .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper {
+      min-height: 6rem; }
+      .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper img {
+        width: 5rem; }
+    .brands #brandsCarousel .carousel-indicators button {
+      width: 1rem;
+      height: 1rem;
+      margin: 0 0.5rem; } }
+
+.navbar {
+  background-color: #f3efe8;
+  padding: 0; }
   .navbar .container-fluid .navbar__logoWraper {
-    min-height: 7rem;
+    min-height: 7.125rem;
     padding-left: 7.5vw;
     display: flex;
     align-items: center; }
@@ -76,11 +161,10 @@ p {
       margin-right: 3vw;
       font-size: 1.125rem;
       color: #000;
-      font-weight: 300;
+      font-weight: 600;
       transition: all 0.25s ease; }
       .navbar .container-fluid .navbar-collapse ul .nav-item .nav-link:hover {
         font-size: 1.15rem;
-        font-weight: 600;
         color: #ee7f59; }
     .navbar .container-fluid .navbar-collapse ul .nav-item:last-child .nav-link {
       margin-right: 0; }
@@ -109,13 +193,11 @@ p {
           .navbar .container-fluid .navbar-collapse ul .nav-item:last-child .nav-link {
             border-bottom: 1px solid #cccccc; } }
   @media (max-width: 576px) {
-    .navbar {
-      padding-bottom: 0; }
-      .navbar .container-fluid .navbar__logoWraper {
-        padding-left: 0rem; }
-        .navbar .container-fluid .navbar__logoWraper .navbar-brand img {
-          width: 3.125rem; }
-        .navbar .container-fluid .navbar__logoWraper .navbar-brand__text p {
-          font-size: 1rem; }
-      .navbar .container-fluid .navbar-toggler {
-        margin-right: 0rem; } }
+    .navbar .container-fluid .navbar__logoWraper {
+      padding-left: 0rem; }
+      .navbar .container-fluid .navbar__logoWraper .navbar-brand img {
+        width: 3.125rem; }
+      .navbar .container-fluid .navbar__logoWraper .navbar-brand__text p {
+        font-size: 1rem; }
+    .navbar .container-fluid .navbar-toggler {
+      margin-right: 0rem; } }

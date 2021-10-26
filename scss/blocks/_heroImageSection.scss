@@ -1,0 +1,34 @@
+.hero-image {
+  background-color: $natural;
+  background-image: url(../img/fondo.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: calc(100vh - 7.125em);
+  .hero-image__container {
+    max-width: $max-width;
+    height: 100%;
+    margin: auto;
+    background-image: url(../img/tissue_package_hands.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  @media (max-width: $xxl) {
+    //background-image: none;
+    .hero-image__container {
+      background-position: 51.25% center;
+    }
+  }
+  @media (max-width: 450px) {
+    .hero-image__container {
+      background-image: url(../img/tissue_package_hands_mobile.jpg);
+      //background-position: center 4rem;
+      // background-attachment: fixed;
+    }
+  }
+}
+
+//**************************
+#borrar {
+  height: 200vh;
+}
