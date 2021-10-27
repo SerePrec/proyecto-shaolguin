@@ -66,6 +66,9 @@ header {
   @media (max-width: 1400px) {
     .hero-image .hero-image__container {
       background-position: 51.25% center; } }
+  @media (max-width: 576px) {
+    .hero-image {
+      height: calc(100vh - 5.3125em); } }
   @media (max-width: 450px) {
     .hero-image .hero-image__container {
       background-image: url(../img/tissue_package_hands_mobile.jpg); } }
@@ -467,6 +470,7 @@ header {
             border-bottom: 1px solid #cccccc; } }
   @media (max-width: 576px) {
     .navbar .container-fluid .navbar__logoWraper {
+      min-height: 5.3125rem;
       padding-left: 0rem; }
       .navbar .container-fluid .navbar__logoWraper .navbar-brand img {
         width: 3.125rem; }

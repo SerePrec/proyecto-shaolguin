@@ -101,6 +101,7 @@
   @media (max-width: $sm) {
     .container-fluid {
       .navbar__logoWraper {
+        min-height: 5.3125rem;
         padding-left: 0rem;
         .navbar-brand {
           img {
