@@ -21,10 +21,17 @@
   }
   @media (max-width: $sm) {
     height: calc(100vh - 5.3125em);
+    // Op 3************************
+    // .hero-image__container {
+    //   background-image: url(../img/tissue_package_hands.jpg);
+    //   background-repeat: no-repeat;
+    //   background-size: 157%;
+    // }
   }
   @media (max-width: 450px) {
     .hero-image__container {
       background-image: url(../img/tissue_package_hands_mobile.jpg);
+      // Op 2***********************
       //background-position: center 4rem;
       // background-attachment: fixed;
     }
