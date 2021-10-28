@@ -518,7 +518,7 @@ header {
     justify-content: center;
     max-width: 100vw; }
     .services-section .services-items-container .services-item {
-      width: 33%;
+      width: 30%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -677,7 +677,7 @@ header {
         margin-right: 0px; } }
 
 .contact-section {
-  width: 60%;
+  width: 50%;
   margin: 50px auto 50px auto;
   background: #f9cebe;
   padding: 25px; }
@@ -874,3 +874,8 @@ header {
       right: 0.625rem; }
       .whatsapp-link img {
         width: 4rem; } }
+
+.footer {
+  width: 100%;
+  background: #ee7f59;
+  height: 100px; }
