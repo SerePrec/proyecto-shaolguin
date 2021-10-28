@@ -1,0 +1,145 @@
+.social-container{
+  
+    padding: 15px;
+    max-width: $max-width;
+    margin: 100px auto 40px auto;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+   
+    .social-text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        .p1{
+            font-family: "Professor";
+            font-size: 30px;
+            
+            margin: 0px 10px 0px 0px;
+        }
+        .p2{ 
+            margin: 0px;
+            font-size: 30px;
+        }
+    }
+
+    .social-img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .social-img{
+            margin-bottom: 15px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    a{
+       
+        
+        color: $naranja-marca;
+        text-decoration: none;
+        padding: 15px;
+        background: #02418f;
+        border-radius: 15px;
+       
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .social-container{
+        margin: 40px auto 40px auto;
+      
+        flex-direction: column;
+        .social-text{
+            margin-top: 20px;
+            margin-bottom: 20px;
+          
+            flex-direction: column !important;
+            .p1{
+                font-family: "Professor";
+                font-size: 25px !important;
+                margin: 0px;
+            }
+            .p2{ 
+                margin: 0px;
+                font-size: 25px !important;
+            }
+        }
+
+        .social-img-container{
+           
+            flex-direction: column;
+
+            .social-img{
+                margin-bottom: 15px;
+                margin-right: 0px;
+            }
+        }
+
+       
+
+        
+    }
+  }
+
+
+
+
+  @media (max-width: 390px) {
+      
+    .social-container{
+        margin: 40px auto 40px auto;
+      
+        flex-direction: column;
+        .social-text{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+           
+            flex-direction: column;
+            .p1{
+               
+                font-size: 25px;
+                margin: 0px;
+            }
+            .p2{ 
+                margin: 0px;
+                font-size: 25px !important;
+            }
+        }
+
+        .social-img-container{
+          
+            flex-direction: column;
+
+            .social-img{
+                margin-bottom: 15px;
+                margin-right: 0px;
+            }
+        }
+
+      
+
+        
+    }
+  }
+
+
