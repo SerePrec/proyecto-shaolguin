@@ -1,15 +1,16 @@
 .contact-section{
     width: 50%;
-    margin: 50px auto 50px auto;
-    background:  #f9cebe;
-    padding: 25px;
-
+    margin: 20px auto 50px auto;
+    background: rgba(249, 206, 190, 0.51);
+   
+   
     .form{
+        
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 10px 45px 10px 45px;
+        padding:  40px;
 
         .inputs-1{
             margin-bottom: 10px;
@@ -21,10 +22,13 @@
                 width: 45%;
                 padding: 10px;
                 outline: none;
+                height: 40px;
                 
             }
             .input-email{
                 width: 45%;
+
+                height: 40px;
                 padding: 10px;
                 outline: none;
             }
@@ -33,17 +37,33 @@
             width: 100%;
             padding: 10px;
             outline: none;
+            height: 101px;
+        }
+        .status-msg{
+           display: block;
+            margin-top: 20px;
+            color: rgb(29, 29, 29);
+            padding: 10px;
+            background: $natural;
+            border-radius: 6px;
         }
 
+        
+        .status-disabled{
+            display: none;
+        }
         .btn-form{
+            
             outline: none;
             border: none;
-            margin-top: 10px;
+            margin-top: 20px;
             margin-left: auto;
-            padding: 10px;
+            padding: 10px 20px;
             background: $naranja-marca;
-            border-radius: 7px;
+            border-radius: 6px;
             color: $natural;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+           
         }
     }
 }
@@ -53,10 +73,10 @@
 
 @media (max-width: $lg) {
     .contact-section{
-   
+       
         .form{
            
-    
+            padding: 20px;
             .inputs-1{
                 margin-bottom: 10px;
                 width: 100%;
@@ -102,17 +122,18 @@
 
 @media (max-width: $md) {
     .contact-section{
+      
         width: 85%;
         margin: 50px auto 50px auto;
         background:  #f9cebe;
-        padding: 20px;
+       
     
         .form{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            padding: 10px 20px 10px 20px;
+            padding: 20px;
     
             .inputs-1{
                 margin-bottom: 10px;

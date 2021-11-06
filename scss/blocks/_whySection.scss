@@ -1,6 +1,6 @@
 .why-section{
     margin-top: 50px;
-    padding: 40px 5px 40px 5px;
+    padding: 100px;
     background: #dee2dd;
     width: 100%;
     
@@ -10,13 +10,15 @@
          max-width:$max-width;
          h2{
              text-align: center;
-             margin-bottom: 15px;
+             margin-bottom: 29px;
+             
          }
         .why-head-p{
             text-align: center;
             font-family: "Poppins-Semibold";
             color: $naranja-marca;
-            margin-bottom: 15px;
+            margin-bottom: 45px;
+            font-size: 18px;
         }
     }
     .why-main{
@@ -34,12 +36,14 @@
            .item-p{
             margin-top: 5px;
                text-align: center;
+               font-size: 29px;
            }
         }
     }
 
     .why-end{
-        margin-top: 45px;
+        margin-top: 70px;
+        font-size: 29px;
         text-align: center;
     }
     
@@ -73,7 +77,7 @@
   }
 
 
-  @media (max-width: $sm) {
+  @media (max-width: 690px) {
     .why-section{
         max-width: 100vw;
         .why-main{
@@ -88,7 +92,7 @@
                    
                     img{
                         
-                     width:70px;
+                     width:90px;
                     }
                 }
                 .item-p{
@@ -105,11 +109,16 @@
              }
         }
     }
+    .why-end{
+        margin-top: 60px;
+        font-size: 22px;
+    }
    }
 
    
   @media (max-width: 576px) {
     .why-section{
+        padding: 30px;
         .why-main{
          justify-content: center;
  
@@ -122,7 +131,7 @@
                    
                     img{
                         
-                     width:70px;
+                     width:90px;
                     }
                 }
                 .item-p{
@@ -143,8 +152,11 @@
         }
     }
     .why-end{
-        font-size: 22px;
+        margin-top: 60px;
+        font-size: 22px !important;
     }
+
+    
    }
 
    @media (max-width: 380px) {
@@ -165,7 +177,7 @@
                     }
                 }
                 .item-p{
-                    font-size: 15px;
+                    font-size: 18px;
                 }
             }
         }
@@ -182,7 +194,8 @@
         }
     }
     .why-end{
-        font-size: 18px;
+        margin-top: 20px !important;
+        font-size: 18px !important;
     }
    }
    

@@ -133,7 +133,7 @@
       </div>
     </section>
 
-
+    
 
     <section class='why-section'>
       <div class="why-head">
@@ -168,31 +168,40 @@
 
     <section class="services-section" id="servicios">
       <h2>Conocé mis servicios.</h2>
+     
       <div class="services-items-container">
         <div class="services-item">
           <div class="services-item-img">
             <img src="./img/trabajos4.jpg" alt="">
           </div>
-          <h5 class="services-item-title">
-            Animate a sorprender
-          </h5>
-          <p class="services-item-description">
-            Adapto los recursos básicos de tu identidad visual al packaging que estás buscando.
-          </p>
-          <a class="services-item-btn b-bottom" href="#">Conocé mis servicios</a>
+          <div class="container-info">
+
+            <h5 class="services-item-title">
+              Animate a sorprender
+            </h5>
+            <p class="services-item-description">
+              Adapto los recursos básicos de tu identidad visual al packaging que estás buscando.
+            </p>
+            <a class="services-item-btn  hidde" href="#">Quiero más información</a>
+          
+          </div>
         </div>
   
         <div class="services-item">
           <div class="services-item-img">
             <img src="./img/trabajos5.jpg" alt="">
           </div>
-          <h5 class="services-item-title">
-           Potenciá tu packaging
-          </h5>
-          <p class="services-item-description">
-            Potenciá tu packaging. Diseño integral de packaging alineado a tu universo visual y a la propuesta que deseás potenciar.
-          </p>
-          <a class="services-item-btn" href="#">Conocé mis servicios</a>
+          <div class="container-info">
+            
+            <h5 class="services-item-title">
+             Potenciá tu packaging
+            </h5>
+            <p class="services-item-description">
+              Potenciá tu packaging. Diseño integral de packaging alineado a tu universo visual y a la propuesta que deseás potenciar.
+            </p>
+            <a class="services-item-btn hidde" href="#">Quiero más información</a>
+           
+          </div>
         </div>
   
   
@@ -200,14 +209,30 @@
           <div class="services-item-img">
             <img src="./img/trabajos6.jpg" alt="">
           </div>
-          <h5 class="services-item-title">
-            Lista para imprimir
-          </h5>
-          <p class="services-item-description">
-            ¡Si ya tenés tu diseño listo, envianos y nosotros lo imprimimos!
-          </p>
-          <a class="services-item-btn b-bottom" href="#">Conocé mis servicios</a>
+          <div class="container-info">
+            
+            <h5 class="services-item-title">
+              Lista para imprimir
+            </h5>
+            <p class="services-item-description">
+              ¡Si ya tenés tu diseño listo, envianos y nosotros lo imprimimos!
+            </p>
+            <a class="services-item-btn hidde " href="#">Quiero más información</a>
+          </div>
         </div>
+      </div>
+      <div class="buttons-fixed">
+        <div class="button-container">
+          
+          <a class="services-item-btn b-bottom" href="#">Quiero más información</a>
+        </div>
+        <div class="button-container">
+          <a class="services-item-btn" href="#">Quiero más información</a>
+        </div>
+        <div class="button-container">
+          <a class="services-item-btn b-bottom" href="#">Quiero más información</a>
+        </div>
+      
       </div>
       
     </section>
@@ -245,34 +270,17 @@
       
       <form id='form' action="" class="form">
         <div class="inputs-1">
-          <input type="text" class="input-name" placeholder="Nombre">
-          <input type="email" class="input-email" placeholder="Email">
+          <input id='name' type="text" class="input-name" placeholder="Nombre">
+          <input id='email' type="email" class="input-email" placeholder="Email">
         </div>
         
-          <textarea name="" id="" cols="30" rows="10" class="input-textarea" placeholder="¿En qué puedo ayudarte?"></textarea>
-
-          <button id='send' type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"   class="btn-form">Enviar</button>
+          <textarea id='mensaje' name="" id="" cols="30" rows="10" class="input-textarea" placeholder="¿En qué puedo ayudarte?"></textarea>
+          <p id='msg' class="status-disabled">Este es un mensaje</p>
+          <button id='send' type="button"  data-bs-toggle="modal"   class="btn-form">Enviar</button>
       </form>
     </section>
   </main>
-  <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Mensaje enviado con éxito</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Muchas gracias, en breve me contactaré con usted.
-      </div>
-      <div class="modal-footer">
-       
-        
-      </div>
-    </div>
-  </div>
-</div>
+
   <footer class='footer'>
 
 
