@@ -1,174 +1,158 @@
-.contact-section{
-    width: 50%;
-    margin: 20px auto 50px auto;
-    background: rgba(249, 206, 190, 0.51);
-   
-   
-    .form{
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding:  40px;
+.contact-section {
+  width: 50%;
+  margin: 20px auto 50px auto;
+  background: rgba(249, 206, 190, 0.51);
 
-        .inputs-1{
-            margin-bottom: 10px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            .input-name{
-                width: 45%;
-                padding: 10px;
-                outline: none;
-                height: 40px;
-                
-            }
-            .input-email{
-                width: 45%;
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
 
-                height: 40px;
-                padding: 10px;
-                outline: none;
-            }
-        }
-        .input-textarea{
-            width: 100%;
-            padding: 10px;
-            outline: none;
-            height: 101px;
-        }
-        .status-msg{
-           display: block;
-            margin-top: 20px;
-            color: rgb(29, 29, 29);
-            padding: 10px;
-            background: $natural;
-            border-radius: 6px;
-        }
+    .inputs-1 {
+      margin-bottom: 10px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .input-name {
+        width: 45%;
+        padding: 10px;
+        outline: none;
+        height: 40px;
+      }
+      .input-email {
+        width: 45%;
 
-        
-        .status-disabled{
-            display: none;
-        }
-        .btn-form{
-            
-            outline: none;
-            border: none;
-            margin-top: 20px;
-            margin-left: auto;
-            padding: 10px 20px;
-            background: $naranja-marca;
-            border-radius: 6px;
-            color: $natural;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-           
-        }
+        height: 40px;
+        padding: 10px;
+        outline: none;
+      }
     }
+    .input-textarea {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      height: 101px;
+      resize: none;
+    }
+    .status-msg {
+      display: block;
+      margin-top: 20px;
+      color: rgb(29, 29, 29);
+      padding: 10px;
+      background: $natural;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .status-disabled {
+      display: none;
+    }
+    .btn-form {
+      outline: none;
+      border: none;
+      margin-top: 20px;
+      margin-left: auto;
+      padding: 10px 20px;
+      background: $naranja-marca;
+      border-radius: 6px;
+      color: $natural;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
 }
-
-
-
 
 @media (max-width: $lg) {
-    .contact-section{
-       
-        .form{
-           
-            padding: 20px;
-            .inputs-1{
-                margin-bottom: 10px;
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                flex-direction:column;
-                .input-name{
-                    width: 100%;
-                    padding: 10px;
-                    outline: none;
-                    
-                }
-                .input-email{
-                    width: 100%;
-                    margin-top: 10px;
-                    padding: 10px;
-                    outline: none;
-                }
-            }
-            .input-textarea{
-                width: 100%;
-                padding: 10px;
-                outline: none;
-            }
-    
-            .btn-form{
-                outline: none;
-                border: none;
-                margin-top: 10px;
-                margin-left: auto;
-                padding: 10px;
-                background: $naranja-marca;
-                border-radius: 7px;
-                color: $natural;
-            }
+  .contact-section {
+    .form {
+      padding: 20px;
+      .inputs-1 {
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        .input-name {
+          width: 100%;
+          padding: 10px;
+          outline: none;
         }
+        .input-email {
+          width: 100%;
+          margin-top: 10px;
+          padding: 10px;
+          outline: none;
+        }
+      }
+      .input-textarea {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+      }
+
+      .btn-form {
+        outline: none;
+        border: none;
+        margin-top: 10px;
+        margin-left: auto;
+        padding: 10px;
+        background: $naranja-marca;
+        border-radius: 7px;
+        color: $natural;
+      }
     }
-    
+  }
 }
 
-
-
 @media (max-width: $md) {
-    .contact-section{
-      
-        width: 85%;
-        margin: 50px auto 50px auto;
-        background:  #f9cebe;
-       
-    
-        .form{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            padding: 20px;
-    
-            .inputs-1{
-                margin-bottom: 10px;
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                .input-name{
-                    width: 100%;
-                    padding: 10px;
-                    outline: none;
-                    
-                }
-                .input-email{
-                    width: 100%;
-                    padding: 10px;
-                    outline: none;
-                }
-            }
-            .input-textarea{
-                width: 100%;
-                padding: 10px;
-                outline: none;
-            }
-    
-            .btn-form{
-                outline: none;
-                border: none;
-                margin-top: 10px;
-                margin-left: auto;
-                padding: 10px;
-                background: $naranja-marca;
-                border-radius: 7px;
-                color: $natural;
-            }
+  .contact-section {
+    width: 85%;
+    margin: 50px auto 50px auto;
+    background: #f9cebe;
+
+    .form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+
+      .inputs-1 {
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .input-name {
+          width: 100%;
+          padding: 10px;
+          outline: none;
         }
+        .input-email {
+          width: 100%;
+          padding: 10px;
+          outline: none;
+        }
+      }
+      .input-textarea {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+      }
+
+      .btn-form {
+        outline: none;
+        border: none;
+        margin-top: 10px;
+        margin-left: auto;
+        padding: 10px;
+        background: $naranja-marca;
+        border-radius: 7px;
+        color: $natural;
+      }
     }
+  }
 }

@@ -1036,14 +1036,16 @@ header {
       width: 100%;
       padding: 10px;
       outline: none;
-      height: 101px; }
+      height: 101px;
+      resize: none; }
     .contact-section .form .status-msg {
       display: block;
       margin-top: 20px;
       color: #1d1d1d;
       padding: 10px;
       background: #f3efe8;
-      border-radius: 6px; }
+      border-radius: 6px;
+      text-align: center; }
     .contact-section .form .status-disabled {
       display: none; }
     .contact-section .form .btn-form {
