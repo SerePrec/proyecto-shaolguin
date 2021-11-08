@@ -63,10 +63,10 @@ header {
     background-image: url(../img/tissue_package_hands.jpg);
     background-position: center;
     background-size: cover; }
-  @media (max-width: 1400px) {
+  @media (max-width: 1399px) {
     .hero-image .hero-image__container {
       background-position: 51.25% center; } }
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     .hero-image {
       height: calc(100vh - 5.3125em); } }
   @media (max-width: 450px) {
@@ -102,7 +102,7 @@ header {
       background-color: #fff; }
       .brands #brandsCarousel .carousel-indicators button.active {
         background-color: #ee7f59; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper {
       min-height: 11rem; }
       .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper img {
@@ -110,12 +110,12 @@ header {
     .brands #brandsCarousel .carousel-indicators button {
       width: 2rem;
       height: 2rem; } }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper {
       min-height: 8rem; }
       .brands #brandsCarousel .carousel-inner .carousel-item .image-wraper img {
         width: 7rem; } }
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     .brands h3 {
       font-size: 1.15rem;
       padding: 2rem 0.25rem 1.5rem 0.25rem; }
@@ -224,7 +224,7 @@ header {
     .about .about-wraper .about__image img {
       width: 100%; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .objective .objective-wraper .objective__text,
   .objective .objective-wraper .about__text,
   .objective .about-wraper .objective__text,
@@ -244,7 +244,7 @@ header {
   .about .about-wraper .about__image {
     width: 43%; } }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .objective .objective-wraper .objective__text h3,
   .objective .objective-wraper .about__text h3,
   .objective .about-wraper .objective__text h3,
@@ -279,7 +279,7 @@ header {
   .about .about-wraper .about__image {
     width: 46%; } }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .objective .objective-wraper,
   .objective .about-wraper,
   .about .objective-wraper,
@@ -334,7 +334,7 @@ header {
       display: block;
       margin-top: 3.785rem; } }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .objective .objective-wraper .objective__text h3,
   .objective .objective-wraper .about__text h3,
   .objective .about-wraper .objective__text h3,
@@ -385,7 +385,7 @@ header {
   .workExamples .image-wraper img {
     width: 30%; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .workExamples h3 {
     padding: 3.875rem 1rem; }
   .workExamples .image-wraper {
@@ -400,7 +400,7 @@ header {
       .workExamples .image-wraper img:last-child {
         margin-bottom: 0; } }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .workExamples h3 {
     font-size: 1.15rem; } }
 
@@ -436,7 +436,7 @@ header {
     font-size: 29px;
     text-align: center; }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .why-section .why-main {
     justify-content: center; }
     .why-section .why-main .why-main-item .item-img {
@@ -645,7 +645,7 @@ header {
             background-color: #ee7f59;
             box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); } }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .services-section {
     padding: 100px 10px 40px 10px;
     margin: auto; }
@@ -699,7 +699,7 @@ header {
     .services-section .buttons-fixed {
       display: none; } }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .services-items-container .services-item {
     width: 90% !important; }
     .services-items-container .services-item .container-info img {
@@ -721,7 +721,7 @@ header {
   .services-section .buttons-fixed {
     display: none; } }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .services-section {
     padding: 100px 10px 40px 10px;
     margin: auto; }
@@ -822,7 +822,7 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px; }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .social-container {
     padding: 20px;
     margin: 70px auto 40px auto;
@@ -868,7 +868,7 @@ header {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       border-radius: 12px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .social-container {
     padding: 20px;
     margin: 50px auto 40px auto;
@@ -914,7 +914,7 @@ header {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       border-radius: 12px; } }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .social-container {
     padding: 20px;
     margin: 40px auto 40px auto;
@@ -1057,7 +1057,7 @@ header {
       color: #f3efe8;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-section .form {
     padding: 20px; }
     .contact-section .form .inputs-1 {
@@ -1090,7 +1090,7 @@ header {
       border-radius: 7px;
       color: #f3efe8; } }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-section {
     width: 85%;
     margin: 50px auto 50px auto;
@@ -1169,12 +1169,12 @@ header {
         color: #ee7f59; }
     .navbar .container-fluid .navbar-collapse ul .nav-item:last-child .nav-link {
       margin-right: 0; }
-  @media (max-width: 1400px) {
+  @media (max-width: 1399px) {
     .navbar .container-fluid .navbar__logoWraper {
       padding-left: 5.5vw; }
     .navbar .container-fluid .navbar-collapse {
       padding-right: 13vw; } }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .navbar {
       padding-bottom: 0; }
       .navbar .container-fluid .navbar__logoWraper {
@@ -1193,7 +1193,7 @@ header {
             border-top: 1px solid #cccccc; }
           .navbar .container-fluid .navbar-collapse ul .nav-item:last-child .nav-link {
             border-bottom: 1px solid #cccccc; } }
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     .navbar .container-fluid .navbar__logoWraper {
       min-height: 5.3125rem;
       padding-left: 0rem; }
@@ -1211,7 +1211,7 @@ header {
   z-index: 1030; }
   .whatsapp-link img {
     width: 4.125rem; }
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     .whatsapp-link {
       bottom: 0.625rem;
       right: 0.625rem; }
