@@ -25,3 +25,24 @@ $("#send").click(function (event) {
     }, 3000);
   }
 });
+
+document.querySelectorAll("a[data-link]").forEach(elem => {
+  elem.addEventListener("click", function (e) {
+    e.preventDefault();
+    const hash = elem.hash.slice(1);
+    if (hash) {
+      setTimeout(() => {
+        const $element = document.getElementById(`${hash}`);
+        const topCoord = $element.getBoundingClientRect().top;
+        const navHeight = document.querySelector(
+          ".navbar.navbar-expand-lg"
+        ).clientHeight;
+        document.documentElement.scrollBy({
+          top: topCoord - navHeight,
+          left: 0,
+          behavior: "smooth"
+        });
+      }, 350);
+    }
+  });
+});
